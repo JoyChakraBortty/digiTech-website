@@ -63,11 +63,13 @@
             <div class="carousel-inner">
                 <div class="carousel-item active " data-bs-interval="10000">
                     <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption  h-50 ">
+                    <div class="carousel-caption h-50">
                         <h1>Get Started Digital <br>Learning</h1>
-                        <p>It is a long established fact that a reader will be distracted by the <br> readable content
+                        <p>It is a long established fact that a reader will be distracted by
+                            the <br> readable content
                             of a
                             page when looking at its layout.</p>
+                        <button class="btn btn-primary">Get Started</button>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
@@ -208,6 +210,42 @@
 
             </div>
         </section>
+        <!-- modal area-->
+        <section class="bg-primary p-4 rounded mt-5">
+            <div class="cotainer d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center">
+                <div class="text-white p-2 w-75 text-center">
+                    <h1>Ready to join?</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+                <div>
+                    <button class="bg-light text-primary border border-0 rounded p-3" data-bs-toggle="modal"
+                        data-bs-target="#reg-modal">Register Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal code  -->
+        <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Get Latest Updates</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+
+                    </div>
+                    <div class="modal-body">
+                        <p>If you want to learn things from us please register</p>
+
+                        <input type="email" name="form-control" id="modal-email">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- ------------Questions----------------------- -->
         <section class="question container mt-5 ms-auto p-3">
             <div class="row justify-content-center">
@@ -333,6 +371,8 @@
 
             </div>
         </section>
+
+
     </main>
 
     <!-- ---------------------footer section ------------ -->
